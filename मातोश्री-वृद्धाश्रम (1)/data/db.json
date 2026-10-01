@@ -1,0 +1,351 @@
+{
+  "users": [
+    {
+      "id": "usr_super_admin_1",
+      "username": "admin",
+      "email": "admin@thoralya-jijau.org",
+      "name": "संस्था सुपर अ‍ॅडमिन (Super Admin)",
+      "role": "SUPER_ADMIN",
+      "passwordHash": "4c2d27b1ff0fd695b3781f17438de2b32e318a87c40838e0fdfc88d29f4dfbf0f5c79e002cdf3f5c4b54f4cefce4ed37e80f2882bc3d26b6a5667ed515080c15",
+      "passwordSalt": "cce0614b5d1c5bd55397b72af1947f7e",
+      "active": true,
+      "createdAt": "2026-09-22T14:01:57.847Z"
+    },
+    {
+      "id": "usr_manager_1",
+      "username": "manager",
+      "email": "manager@thoralya-jijau.org",
+      "name": "कार्यक्रम व्यवस्थापक (Manager)",
+      "role": "MANAGER",
+      "passwordHash": "3477176cdc73feff2985d3323c337f917637240716294cfd6f3a6274290e657dc3f2f3e4945983f19dd284897065866569e7365e1858ce09651410e2a021d25b",
+      "passwordSalt": "8221901fec8e4e614bac0d882a621f2a",
+      "active": true,
+      "createdAt": "2026-09-22T14:01:57.847Z"
+    }
+  ],
+  "events": [],
+  "boardMembers": [
+    {
+      "id": 1,
+      "name": "कांतीलाल चोपडा",
+      "designationKey": "अध्यक्ष",
+      "cityKey": "नाशिक",
+      "photoUrl": null
+    },
+    {
+      "id": 2,
+      "name": "अनिल खिंवसरा",
+      "designationKey": "सचिव",
+      "cityKey": "मुंबई",
+      "photoUrl": null
+    },
+    {
+      "id": 3,
+      "name": "सुनील बंब",
+      "designationKey": "कोषाध्यक्ष",
+      "cityKey": "मुंबई",
+      "photoUrl": null
+    },
+    {
+      "id": 4,
+      "name": "सुभाषचन्द्र रुणवाल",
+      "designationKey": "विश्वस्त",
+      "cityKey": "मुंबई",
+      "photoUrl": null
+    },
+    {
+      "id": 5,
+      "name": "रमेश फिरोदिया",
+      "designationKey": "विश्वस्त",
+      "cityKey": "अ.नगर",
+      "photoUrl": null
+    },
+    {
+      "id": 6,
+      "name": "रमणलाल लुंकड",
+      "designationKey": "विश्वस्त",
+      "cityKey": "पुणे",
+      "photoUrl": null
+    },
+    {
+      "id": 7,
+      "name": "सुमतीलाल कर्णावट",
+      "designationKey": "विश्वस्त",
+      "cityKey": "ठाणे",
+      "photoUrl": null
+    },
+    {
+      "id": 8,
+      "name": "जयंतभाई शहा",
+      "designationKey": "विश्वस्त",
+      "cityKey": "पुणे",
+      "photoUrl": null
+    },
+    {
+      "id": 9,
+      "name": "पारस मोदी",
+      "designationKey": "विश्वस्त",
+      "cityKey": "मुंबई",
+      "photoUrl": null
+    },
+    {
+      "id": 10,
+      "name": "प्रकाश दुगाड",
+      "designationKey": "विश्वस्त",
+      "cityKey": "पुणे",
+      "photoUrl": null
+    },
+    {
+      "id": 11,
+      "name": "अमरचंद छाजेड",
+      "designationKey": "विश्वस्त",
+      "cityKey": "मुंबई",
+      "photoUrl": null
+    },
+    {
+      "id": 12,
+      "name": "निलेश छाजेड",
+      "designationKey": "विश्वस्त",
+      "cityKey": "मुंबई",
+      "photoUrl": null
+    },
+    {
+      "id": 13,
+      "name": "जितेश छाजेड",
+      "designationKey": "विश्वस्त",
+      "cityKey": "मुंबई",
+      "photoUrl": null
+    },
+    {
+      "id": 14,
+      "name": "मोतीलाल छाजेड",
+      "designationKey": "विश्वस्त",
+      "cityKey": "मुंबई",
+      "photoUrl": null
+    }
+  ],
+  "gallery": [
+    {
+      "id": "original_01",
+      "category": "वृद्धाश्रम",
+      "titleMr": "मुख्य इमारतीचे छायाचित्र",
+      "titleEn": "Main building of the old-age home",
+      "imageUrl": "/images/original-01.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_02",
+      "category": "परिसर",
+      "titleMr": "निसर्गरम्य परिसरातील मंदिर व वाट",
+      "titleEn": "Temple and pathway in the campus",
+      "imageUrl": "/images/original-02.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_03",
+      "category": "वृद्धाश्रम",
+      "titleMr": "वृद्धाश्रमाच्या इमारतीचा विस्तृत दृश्य",
+      "titleEn": "Wide view of the old-age-home building",
+      "imageUrl": "/images/original-03.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_04",
+      "category": "सुविधा",
+      "titleMr": "आश्रमातील स्वच्छ व प्रशस्त मार्गिका",
+      "titleEn": "Clean and spacious corridor",
+      "imageUrl": "/images/original-04.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_05",
+      "category": "सुविधा",
+      "titleMr": "निवासी खोलीचे छायाचित्र",
+      "titleEn": "Resident room",
+      "imageUrl": "/images/original-05.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_06",
+      "category": "परिसर",
+      "titleMr": "परिसरातील मंदिर व हिरवाई",
+      "titleEn": "Temple and greenery in the campus",
+      "imageUrl": "/images/original-06.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_07",
+      "category": "सुविधा",
+      "titleMr": "प्रार्थना व पूजास्थळ",
+      "titleEn": "Prayer and worship area",
+      "imageUrl": "/images/original-07.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_08",
+      "category": "वृद्धाश्रम",
+      "titleMr": "वृद्धाश्रमाच्या इमारतीचे बाह्य दृश्य",
+      "titleEn": "Exterior view of the old-age-home building",
+      "imageUrl": "/images/original-08.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_09",
+      "category": "सुविधा",
+      "titleMr": "आश्रमातील मार्गिका व खुला परिसर",
+      "titleEn": "Corridor and open courtyard area",
+      "imageUrl": "/images/original-09.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_10",
+      "category": "सुविधा",
+      "titleMr": "निवासी खोलीतील सोय",
+      "titleEn": "Resident room",
+      "imageUrl": "/images/original-10.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_11",
+      "category": "सुविधा",
+      "titleMr": "निवासी खोलीतील दुसरे दृश्य",
+      "titleEn": "Another view of a resident room",
+      "imageUrl": "/images/original-11.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_12",
+      "category": "परिसर",
+      "titleMr": "आश्रम इमारतीचा अंतर्गत खुला परिसर",
+      "titleEn": "Open courtyard area of the campus",
+      "imageUrl": "/images/original-12.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_13",
+      "category": "वृद्धाश्रम",
+      "titleMr": "संस्थेच्या इमारतीचे बाह्य दृश्य",
+      "titleEn": "Exterior view of the institution building",
+      "imageUrl": "/images/original-13.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_14",
+      "category": "वृद्धाश्रम",
+      "titleMr": "आश्रम इमारतीचा समोरील भाग",
+      "titleEn": "Front view of the ashram building",
+      "imageUrl": "/images/original-14.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_15",
+      "category": "परिसर",
+      "titleMr": "संस्थेच्या परिसरातील प्रवेशद्वार",
+      "titleEn": "Entrance gate of the institution campus",
+      "imageUrl": "/images/original-15.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_16",
+      "category": "वृद्धाश्रम",
+      "titleMr": "आश्रम इमारतीचे बाह्य दृश्य",
+      "titleEn": "Exterior view of the ashram building",
+      "imageUrl": "/images/original-16.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_17",
+      "category": "परिसर",
+      "titleMr": "परिसरातील हिरवाई व उंच झाडे",
+      "titleEn": "Greenery and tall trees in the campus",
+      "imageUrl": "/images/original-17.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_18",
+      "category": "परिसर",
+      "titleMr": "इमारत व निसर्गरम्य परिसर",
+      "titleEn": "Building surrounded by greenery",
+      "imageUrl": "/images/original-18.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_19",
+      "category": "परिसर",
+      "titleMr": "परिसरातील वाट व हिरवाई",
+      "titleEn": "Pathway and greenery in the campus",
+      "imageUrl": "/images/original-19.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_20",
+      "category": "परिसर",
+      "titleMr": "पावसाळ्यातील परिसराचे दृश्य",
+      "titleEn": "Campus view during the rainy season",
+      "imageUrl": "/images/original-20.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_21",
+      "category": "परिसर",
+      "titleMr": "मोकळे मैदान व हिरवाई",
+      "titleEn": "Open ground and greenery",
+      "imageUrl": "/images/original-21.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_22",
+      "category": "परिसर",
+      "titleMr": "इमारतीलगतचा परिसर व वाट",
+      "titleEn": "Path and area beside the building",
+      "imageUrl": "/images/original-22.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_23",
+      "category": "परिसर",
+      "titleMr": "परिसरातील मंदिर व हिरवाई",
+      "titleEn": "Temple and greenery in the campus",
+      "imageUrl": "/images/original-23.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_24",
+      "category": "वृद्धाश्रम",
+      "titleMr": "संस्थेच्या नावासह इमारतीचे दृश्य",
+      "titleEn": "Building exterior with the institution name",
+      "imageUrl": "/images/original-24.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_25",
+      "category": "क्षणचित्रे",
+      "titleMr": "संस्थेतील भेटीचे क्षणचित्र",
+      "titleEn": "A moment from a visit to the institution",
+      "imageUrl": "/images/original-25.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "id": "original_26",
+      "category": "क्षणचित्रे",
+      "titleMr": "संस्थेतील समूहाचे क्षणचित्र",
+      "titleEn": "A group moment at the institution",
+      "imageUrl": "/images/original-26.jpg",
+      "createdAt": "2026-09-25T00:00:00.000Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "897a559d3ad0d3db50f7224621d5c2238341914456d9ff2fbd36c5bd54b00680",
+      "userId": "usr_super_admin_1",
+      "role": "SUPER_ADMIN",
+      "expiresAt": 1790691488750
+    },
+    {
+      "token": "50569d17f3bb621fec98694a429f2e303c5eb6e410c334b0b640674abb2e9634",
+      "userId": "usr_super_admin_1",
+      "role": "SUPER_ADMIN",
+      "expiresAt": 1790691491476
+    }
+  ]
+}
