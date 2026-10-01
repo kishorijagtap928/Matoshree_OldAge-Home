@@ -451,7 +451,7 @@ function requireRole(allowedRoles: ('SUPER_ADMIN' | 'MANAGER')[]) {
   };
 }
 
-async function startServer() {
+export async function startServer(listen = true){
   // Middlewares
   app.use(express.json({ limit: '30mb' }));
   app.use(express.urlencoded({ extended: true, limit: '30mb' }));
@@ -1075,6 +1075,7 @@ async function startServer() {
   // ==========================================
   // VITE / STATIC INTEGRATION
   // ==========================================
+  if (listen) {
   if (process.env.NODE_ENV !== 'production') {
     const vite = await createViteServer({
       server: { middlewareMode: true },
@@ -1088,12 +1089,17 @@ async function startServer() {
       res.sendFile(path.join(distPath, 'index.html'));
     });
   }
-
-  app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Server running on http://0.0.0.0:${PORT}`);
-  });
 }
 
-startServer().catch(err => {
-  console.error('Failed to start server:', err);
-});
+    if (listen) {
+    app.listen(PORT, '0.0.0.0', () => {
+      console.log(`Server running on http://0.0.0.0:${PORT}`);
+    });
+  }
+}
+
+if (!process.env.VERCEL) {
+  startServer().catch(err => {
+    console.error('Failed to start server:', err);
+  });
+}
